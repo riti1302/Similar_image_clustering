@@ -21,4 +21,11 @@ Execute the following commands.
   
   ### Approach
   
+  I used the simplest approach I could find to solve this problem. I used python's pre-built library, CV2 because I believe that there's no need of re-inventing the wheel. My script works in the following manner:
+  1. The images in the dataset are checked if they are equal.
+  2. Then the images are compared to find percentage of similarity between them.
+  3. If similarity percentage is above a threshold value or if they are equal then the images are kept in the same group.
   
+ ### Accuracy
+ For the given data, there is 1 False Positive in a corpus of 20 images.
+ 
